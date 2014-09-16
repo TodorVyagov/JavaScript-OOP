@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.DOM-Working-Module", "1.DOM-Working-Module\1.DOM-Working-Module.csproj", "{2BC00AB6-F3E5-4830-A394-A95B1EAF4CE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.MovingDivs", "2.MovingDivs\2.MovingDivs.csproj", "{AC171370-07B3-44E9-91E9-7C327489BA2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.ConsoleModule", "3.ConsoleModule\3.ConsoleModule.csproj", "{0F12C8C7-1DB6-4F76-A7D9-499819EE8B56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BC00AB6-F3E5-4830-A394-A95B1EAF4CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC00AB6-F3E5-4830-A394-A95B1EAF4CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC00AB6-F3E5-4830-A394-A95B1EAF4CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC00AB6-F3E5-4830-A394-A95B1EAF4CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC171370-07B3-44E9-91E9-7C327489BA2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC171370-07B3-44E9-91E9-7C327489BA2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC171370-07B3-44E9-91E9-7C327489BA2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC171370-07B3-44E9-91E9-7C327489BA2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F12C8C7-1DB6-4F76-A7D9-499819EE8B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F12C8C7-1DB6-4F76-A7D9-499819EE8B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F12C8C7-1DB6-4F76-A7D9-499819EE8B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F12C8C7-1DB6-4F76-A7D9-499819EE8B56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

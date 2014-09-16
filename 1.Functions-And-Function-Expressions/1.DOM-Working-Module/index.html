@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>DOM Module</title>
+    <style>
+        #red {
+            background-color: red;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        #blue {
+            background-color: blue;
+            color: white;
+        }
+
+        #yellowgreen {
+            background-color: yellowgreen;
+        }
+
+            #yellowgreen .green {
+                background-color: green;
+            }
+    </style>
+</head>
+<body>
+    <span>HTML element:</span>
+    <input type="text" id="input-type-of-element" value="div" />
+    <span>Parent element selector:</span>
+    <input type="text" id="input-parent-selector-of-element" value="div#yellowgreen" />
+    <span>Content of HTML element(optional):</span>
+    <input type="text" id="input-content-of-element" />
+
+    <button id="add-element-button">Add(fill in all fields)</button>
+    <button id="remove-element-button">Remove(fill in selector)</button>
+    <button id="attach-hover-event-button">Add hover effect on ADD Button.</button>
+    <button id="add-to-buffer-button">Add 100 elements to buffer.</button>
+
+    <h3>Tutorial</h3>
+    <p>
+        You can use these selectors: div#red, div.green, span.green, div#blue, div#yellowgreen.
+    </p>
+
+    <div id="red">red</div>
+    <div class="green">green</div>
+    <div id="blue">blue</div>
+    <div id="yellowgreen">
+        yellowgreen
+        <span class="green">green</span>
+    </div>
+
+
+    <script src="dom-module.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+D:\Todor\Telerik Software Academy\09.JavaScript-3OOP\1.Functions-And-Function-Expressions\1.DOM-Working-Module\bin\1.DOM-Working-Module.dll.config
+D:\Todor\Telerik Software Academy\09.JavaScript-3OOP\1.Functions-And-Function-Expressions\1.DOM-Working-Module\bin\1.DOM-Working-Module.dll
+D:\Todor\Telerik Software Academy\09.JavaScript-3OOP\1.Functions-And-Function-Expressions\1.DOM-Working-Module\bin\1.DOM-Working-Module.pdb
+D:\Todor\Telerik Software Academy\09.JavaScript-3OOP\1.Functions-And-Function-Expressions\1.DOM-Working-Module\obj\Debug\1.DOM-Working-Module.csprojResolveAssemblyReference.cache
+D:\Todor\Telerik Software Academy\09.JavaScript-3OOP\1.Functions-And-Function-Expressions\1.DOM-Working-Module\obj\Debug\1.DOM-Working-Module.dll
+D:\Todor\Telerik Software Academy\09.JavaScript-3OOP\1.Functions-And-Function-Expressions\1.DOM-Working-Module\obj\Debug\1.DOM-Working-Module.pdb

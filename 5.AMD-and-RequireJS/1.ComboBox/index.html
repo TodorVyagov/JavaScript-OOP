@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ComboBox</title>
+    <style>
+        .person-name {
+            font-family: Calibri;
+            font-size: 20px;
+        }
+
+        .person-age{
+            font-style: italic;
+        }
+
+        .person-age:before {
+            content: 'Age: ';
+        }
+
+        .person-item{
+            border: 1px solid yellowgreen;
+            background-color: lightgoldenrodyellow;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="combobox-holder">
+
+    </div>
+
+    <script type="text/x-handlebars-template" id="person-template">
+        <div class="person-item" id="person-item-{{id}}">
+            <strong class="person-name">{{name}}</strong><p class="person-age">{{age}}</p>
+            <img src="{{avatarUrl}}" width="100px" />
+        </div>
+    </script>
+    <script src="scripts/libs/require.min.js" data-main="scripts/app"></script>
+</body>
+</html>

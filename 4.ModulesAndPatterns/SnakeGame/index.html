@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Snake Game</title>
+    <style>
+        #snake-canvas{
+            border: 1px solid yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="snake-canvas" width="600" height="400"></canvas>
+    <script src="snake.js"></script>
+    <script src="renderer.js"></script>
+    <script src="game.js"></script>
+    <script>
+
+        var canvasRenderer = render.CanvasRenderer('#snake-canvas');
+        var game = new Game.SnakeGame(canvasRenderer);
+        game.start();
+    </script>
+</body>
+</html>
